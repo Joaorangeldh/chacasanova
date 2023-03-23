@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.theadh1{
+    text-align: center;
+    font-size: 50px;
+}
+
+.theadh2{
+    text-align: center;
+    font-size: 30px;
+
+} 
+
+.theadnome{
+    background-image: url(utensilios-de-cozinha-que-nao-podem-faltar-planejamento-e-importante-min.jpg);
+    background-position: center center;
+    background-size: 300px;
+    background-attachment: fixed;
+    height: 300px;
+}
+
+li{
+    display: inline-block;
+    font-size: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+  }
+
+li#home{
+    background-color: rgba(245, 245, 220, 0.352);
+    border: 1px solid beige;
+    border-radius: 0px 20px;
+    color: black;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: burlywood;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+li#presentes{
+    background-color: rgba(245, 245, 220, 0.352);
+    border: 1px solid beige;
+    border-radius: 0px 20px;
+}
+
+li#julia{
+    background-color: rgba(245, 245, 220, 0.352);
+    border: 1px solid beige;
+    border-radius: 0px 20px;
+}
+
+li#joao {
+    background-color: rgba(245, 245, 220, 0.352);
+    border: 1px solid beige;
+    border-radius: 0px 20px;
+}
+
+.tbody > li{
+    background-color: aqua;
+    box-shadow: 5px 5px 5px black;
+    text-align: center;
+    height: 70vh;
+    width: 70vh;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+
+}
+
+li > img{
+    height: 250px;
+    width: 250px;
+}
+
+
